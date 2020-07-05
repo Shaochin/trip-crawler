@@ -1,0 +1,10 @@
+資料庫設計：
+Table1 : 
+  Name: product
+  Columns: Id(primary key), p_name(unique), p_days, p_price, P_source
+Table 2:
+  Name: flight
+  Columns: Id(primary key), airline, departCity, departPort, departDate, departTime, arriveCity,      arrivePort, arriveDate, arriveTime
+Table 3:
+  Name: date_seat
+  Columns: p_Id(foreign key), p_date, p_seat, p_available, flight_go(foreign key), flight_go(foreign key)
