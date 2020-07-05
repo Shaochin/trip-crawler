@@ -7,4 +7,4 @@ Table 2:
   Columns: Id(primary key), airline, departCity, departPort, departDate, departTime, arriveCity,      arrivePort, arriveDate, arriveTime
 Table 3:
   Name: date_seat
-  Columns: p_Id(foreign key), p_date, p_seat, p_available, flight_go(foreign key), flight_go(foreign key)
+  Columns: p_Id(foreign key reference product Id), p_date, p_seat, p_available, flight_go(foreign key reference flight Id), flight_go(foreign key reference flight Id)
